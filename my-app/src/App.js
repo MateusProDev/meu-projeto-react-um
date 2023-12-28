@@ -1,6 +1,8 @@
 import React from 'react';
 import logoJuv from './img/logo-juv.png';
-import { Carousel } from 'react-bootstrap';
+import logo1 from './img/Dog-House.svg';
+import logo2 from './img/Event-Accepted-Tentatively.svg';
+import logo3 from './img/Pray.svg';
 import './App.css';
 
 function App() {
@@ -32,9 +34,9 @@ function App() {
             </div>
           </div>
           <div className="overlap-group2 animate-slide-in">
-            <a href="calendario.html"><img className="clipboard-list" src="./img/" alt="Clipboard List" /></a>
-            <a href="index.html"><img className="dog-house" src="./img/Dog-House.svg" alt="house" /></a>
-            <a href="sala.html"><img className="pray" src="./img/Pray.svg" alt="Pray" /></a>
+            <a href="./calendar.js"><img className="clipboard-list" src={logo2} alt=" List" /></a>
+            <a href="index.html"><img className="dog-house" src={logo1} alt="house" /></a>
+            <a href="sala.html"><img className="pray" src={logo3} alt="Pray" /></a>
           </div>
         </div>
       </div>
